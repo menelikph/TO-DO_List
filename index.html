@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="img/work-order.png" alt="logo" class="logo" />
+      <h1>To-Do List</h1>
+      <p>Manage your tasks efficiently!</p>
+    </div>
+
+    <div class="container">
+      <form action="#" id="userImput">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="Add a new task..."
+          autofocus
+          required
+        />
+        <input type="submit" value="Add" id="addBtn" />
+      </form>
+    </div>
+
+    <div class="task-container">
+      <label>
+        <input type="checkbox" class="task-checkbox" />
+        Sample Task 1
+      </label>
+      <img src="img/recycle-bin.png" class="close-btn" alt="Delete Task" />
+    </div>
+
+    <!--     <div id="stats">tareas pendientes</div> -->
+  </body>
+  <script src="main.js"></script>
+</html>
