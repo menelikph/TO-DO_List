@@ -39,7 +39,7 @@ function renderTasks(taskName, id) {
 form.addEventListener("submit", () => {
   // Add an event listener for the form submission
   const taskName = document.querySelector("#todo-input").value; // Get the value of the input field with id "todo-input"
-
+  
   const newTask = {
     id: Math.random().toString(36).substring(2, 15),
     taskName: taskName,
@@ -50,6 +50,7 @@ form.addEventListener("submit", () => {
   tasks.push(newTask);
   localStorage.setItem("tasks", JSON.stringify(tasks));
 });
+
 
 const idresponse = tasks.findIndex((task) => task.id === "6rukh6v7c4p");
 

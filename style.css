@@ -24,13 +24,13 @@ body{
 }
 
 .logo{
-    width: 300px;
+    width: 270px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-header{
+.header{
     background-color: var(--primary-color);
     color: white;
     padding: 20px;
